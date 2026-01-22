@@ -177,15 +177,6 @@ function openPopup(id) {
 <div class="day" style="grid-column: 1; grid-row: 7; border-right: none;"></div>
 <!--EXTRA HELPS-->
 <!--Extra Help One--->
-<div style="grid-column: 6 / span 1; grid-row: 6; display: flex; justify-content: center">
-  <div class="popup">
-	<button class="button-help" onclick="openPopup('help01')">
-	<img class="people" src="Icon open-people.svg" alt="extra help">
-	</button>
-	<span class="popuptext" id="help01">Extra Help 10am-12pm
-</span>
-	</div>
-</div>
 
 <!--End EXTRA HELPS-->
 	
@@ -266,7 +257,14 @@ function openPopup(id) {
 </div>
 <!--Class SEVEN DIV--->
 <div style="grid-column: 6 / span 1; grid-row: 6; display: flex; justify-content: center">
-  <div class="button-div">
+   <div class="popup">
+	<button class="button-help" onclick="openPopup('help01')">
+	<img class="people" src="Icon open-people.svg" alt="extra help">
+	</button>
+	<span class="popuptext" id="help01">Extra Help 10am-12pm
+</span>
+	</div>
+	<div class="button-div">
     <button class="button-class" id="class7">
       <img class="book" src="Icon material-class.svg" alt="classInfo">
       </button>
@@ -619,6 +617,7 @@ function openPopup(id) {
     </div>
 	</body>
 </html>
+
 
 
 
